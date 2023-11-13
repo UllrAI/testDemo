@@ -1,0 +1,182 @@
+[
+  {
+    "name": "openFile",
+    "shortcut": "Ctrl+O"
+  },
+  {
+    "name": "openFolder",
+    "shortcut": ""
+  },
+  {
+    "name": "save",
+    "shortcut": "Ctrl+S"
+  },
+  {
+    "name": "saveAndOpenNext",
+    "shortcut": "Space"
+  },
+  {
+    "name": "saveAs",
+    "shortcut": "Ctrl+Shift+S"
+  },
+  {
+    "name": "close",
+    "shortcut": ""
+  },
+  {
+    "name": "print",
+    "shortcut": ""
+  },
+  {
+    "name": "exit",
+    "shortcut": ""
+  },
+  {
+    "name": "undo",
+    "shortcut": "Ctrl+Z"
+  },
+  {
+    "name": "redo",
+    "shortcut": ""
+  },
+  {
+    "name": "colorPicker",
+    "shortcut": ""
+  },
+  {
+    "name": "copy",
+    "shortcut": ""
+  },
+  {
+    "name": "cut",
+    "shortcut": ""
+  },
+  {
+    "name": "paste",
+    "shortcut": ""
+  },
+  {
+    "name": "rotateLeft",
+    "shortcut": ""
+  },
+  {
+    "name": "rotateRight",
+    "shortcut": ""
+  },
+  {
+    "name": "rotate180",
+    "shortcut": ""
+  },
+  {
+    "name": "flipX",
+    "shortcut": ""
+  },
+  {
+    "name": "flipY",
+    "shortcut": ""
+  },
+  {
+    "name": "autoStraightening",
+    "shortcut": "A"
+  },
+  {
+    "name": "manualStraightening",
+    "shortcut": "Ctrl+R"
+  },
+  {
+    "name": "lineStraightening",
+    "shortcut": ""
+  },
+  {
+    "name": "centering",
+    "shortcut": ""
+  },
+  {
+    "name": "sharp",
+    "shortcut": ""
+  },
+  {
+    "name": "denoise",
+    "shortcut": ""
+  },
+  {
+    "name": "inRect",
+    "shortcut": ""
+  },
+  {
+    "name": "outRect",
+    "shortcut": ""
+  },
+  {
+    "name": "threshold",
+    "shortcut": ""
+  },
+  {
+    "name": "curves",
+    "shortcut": "Ctrl + M"
+  },
+  {
+    "name": "BCHS",
+    "shortcut": ""
+  },
+  {
+    "name": "bleach",
+    "shortcut": "B"
+  },
+  {
+    "name": "darken",
+    "shortcut": "S"
+  },
+  {
+    "name": "grayscale",
+    "shortcut": ""
+  },
+  {
+    "name": "invert",
+    "shortcut": ""
+  },
+  {
+    "name": "crop",
+    "shortcut": "Ctrl+T"
+  },
+  {
+    "name": "imageSize",
+    "shortcut": ""
+  },
+  {
+    "name": "canvasSize",
+    "shortcut": ""
+  },
+  {
+    "name": "batchRotateLeft",
+    "shortcut": ""
+  },
+  {
+    "name": "batchRotateRight",
+    "shortcut": ""
+  },
+  {
+    "name": "batchRotate180",
+    "shortcut": ""
+  },
+  {
+    "name": "workplace",
+    "shortcut": ""
+  },
+  {
+    "name": "browserMode",
+    "shortcut": "H"
+  },
+  {
+    "name": "shortcutConfig",
+    "shortcut": ""
+  },
+  {
+    "name": "preferences",
+    "shortcut": ""
+  },
+  {
+    "name": "about",
+    "shortcut": ""
+  }
+]

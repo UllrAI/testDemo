@@ -1,0 +1,225 @@
+[
+  {
+    "tabName": "demo",
+    "forms": [
+      {
+        "title": "外观",
+        "style": {
+          "height": "180px"
+        },
+        "attrs": {
+          "size": "mini"
+        },
+        "items": [
+          {
+            "funcName": "",
+            "label": "颜色",
+            "type": "select",
+            "options": [
+              {
+                "label": "红色",
+                "value": "red"
+              },
+              {
+                "label": "绿色",
+                "value": "green"
+              },
+              {
+                "label": "蓝色",
+                "value": "blue"
+              }
+            ],
+            "model": "blue",
+            "attrs": {},
+            "style": {
+              "width": "140px"
+            }
+          },
+          {
+            "funcName": "",
+            "label": "宽度",
+            "type": "input",
+            "model": "25",
+            "attrs": {},
+            "style": {
+              "width": "140px"
+            }
+          },
+          {
+            "funcName": "",
+            "label": "进度条",
+            "type": "radio-group",
+            "model": "close",
+            "radios": [
+              {
+                "label": "开启",
+                "value": "open"
+              },
+              {
+                "label": "关闭",
+                "value": "close"
+              }
+            ],
+            "attrs": {},
+            "style": {}
+          },
+          {
+            "funcName": "",
+            "label": "代码保存时",
+            "type": "checkbox-group",
+            "model": [
+              "移除分号",
+              "移除空行"
+            ],
+            "checkboxs": [
+              {
+                "label": "移除空行",
+                "name": "blankLine"
+              },
+              {
+                "label": "移除分号",
+                "name": "semicolon"
+              }
+            ],
+            "attrs": {},
+            "style": {}
+          }
+        ]
+      },
+      {
+        "title": "窗口设置",
+        "func": "",
+        "style": {
+          "height": "228px"
+        },
+        "attrs": {
+          "size": "mini",
+          "label-position": "top"
+        },
+        "items": [
+          {
+            "funcName": "",
+            "label": "宽度设置：",
+            "type": "input",
+            "model": "",
+            "attrs": {
+              "placeholder": "请输入宽度"
+            },
+            "style": {
+              "width": "100%"
+            }
+          },
+          {
+            "funcName": "",
+            "label": "高度设置：",
+            "type": "input",
+            "model": "",
+            "attrs": {
+              "placeholder": "请输入高度"
+            },
+            "style": {
+              "width": "100%"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tabName": "常规",
+    "forms": [
+      {
+        "title": "系统设置",
+        "style": {
+          "height": "408px"
+        },
+        "attrs": {
+          "size": "mini"
+        },
+        "items": [
+          {
+            "funcName": "shouldOperationConfirm",
+            "label": "所有操作是否需要确认：",
+            "type": "radio-group",
+            "model": true,
+            "radios": [
+              {
+                "label": "无需确认",
+                "value": false
+              },
+              {
+                "label": "进行确认",
+                "value": true
+              }
+            ],
+            "attrs": {},
+            "style": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tabName": "纠斜设置",
+    "forms": [
+      {
+        "title": "通用",
+        "func": "",
+        "style": {
+          "height": "120px"
+        },
+        "attrs": {
+          "size": "mini"
+        },
+        "items": [
+          {
+            "funcName": "straightening.canvasSizeMode",
+            "label": "纠斜后",
+            "type": "radio-group",
+            "model": 0,
+            "radios": [
+              {
+                "label": "改变图像大小",
+                "value": 0
+              },
+              {
+                "label": "保持图像大小",
+                "value": 1
+              }
+            ],
+            "attrs": {},
+            "style": {}
+          }
+        ]
+      },
+      {
+        "title": "手动纠斜",
+        "func": "",
+        "style": {
+          "height": "158px"
+        },
+        "attrs": {
+          "size": "mini"
+        },
+        "items": [
+          {
+            "funcName": "manualStraightening.defaultAngle",
+            "label": "每次旋转角度",
+            "type": "input",
+            "model": "0.2",
+            "attrs": {
+              "type": "number",
+              "size": "mini",
+              "max": 90,
+              "min": -90,
+              "step": 0.1
+            },
+            "style": {
+              "width": "120px"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

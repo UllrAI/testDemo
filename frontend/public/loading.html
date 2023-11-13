@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    html, body {
+      padding: 0;
+      margin: 0;
+    }
+
+    .loading {
+      --dot-width: 18px;
+      --dot-height: 18px;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      background-color: #f7f7f7;
+    }
+
+    .loading > .dot {
+      width: var(--dot-width);
+      height: var(--dot-height);
+      background-color: #409eff;
+      opacity: .8;
+      position: fixed;
+      top: calc(50% - var(--dot-width) / 2);
+      left: calc(50% - var(--dot-height) / 2);
+      border-radius: 50%;
+    }
+
+    .dot::before {
+      position: inherit;
+      content: "";
+      width: inherit;
+      height: inherit;
+      top: inherit;
+      left: inherit;
+      background: inherit;
+      border-radius: inherit;
+      animation-name: wave;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-out;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes wave {
+      0% {
+        opacity: .8;
+      }
+
+      100% {
+        opacity: 0;
+        transform: scale(4);
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="loading">
+  <div class="dot"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,679 @@
+[
+  {
+    "name": "file",
+    "shortcutKey":"",
+    "meta": {
+      "title": "文件",
+      "icon":""
+    },
+    "divide": false,
+    "disabled": false,
+    "children": [
+      {
+        "name": "openFile",
+        "shortcutKey": "",
+        "meta": {
+          "title": "打开",
+          "icon":"icon-xinjian"
+        },
+        "divide": false,
+        "disabled": false,
+        "inputVisible": false
+      },
+      {
+        "name": "openFolder",
+        "shortcutKey": "",
+        "meta": {
+          "title": "打开文件夹",
+          "icon":"icon-wenjianjia"
+        },
+        "divide": false,
+        "disabled": false,
+        "inputVisible": false
+      },
+      {
+        "name": "save",
+        "shortcutKey": "",
+        "shortcutScope": "all",
+        "meta": {
+          "title": "保存",
+          "icon":"icon-baocun"
+        },
+        "divide": false,
+        "disabled": false,
+        "inputVisible": false
+      },
+      {
+        "name": "saveAndOpenNext",
+        "shortcutKey": "",
+        "shortcutScope": "all",
+        "meta": {
+          "title": "保存并打开下一张",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false,
+        "inputVisible": false
+      },
+      {
+        "name": "saveAs",
+        "shortcutKey": "",
+        "shortcutScope": "all",
+        "meta": {
+          "title": "另存为",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false,
+        "inputVisible": false
+      },
+      {
+        "name": "close",
+        "shortcutKey": "",
+        "meta": {
+          "title": "关闭",
+          "icon":""
+        },
+        "divide": true,
+        "disabled": false,
+        "inputVisible": false
+      },
+      {
+        "name": "print",
+        "shortcutKey": "",
+        "meta": {
+          "title": "打印",
+          "icon":""
+        },
+        "divide": true,
+        "disabled": false
+      },
+      {
+        "name": "exit",
+        "shortcutKey": "",
+        "meta": {
+          "title": "退出",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "edit",
+    "shortcutKey": "",
+    "meta": {
+      "title": "编辑",
+      "icon":""
+    },
+    "divide": false,
+    "disabled": false,
+    "children": [
+      {
+        "name": "undo",
+        "shortcutKey": "",
+        "shortcutScope": "all",
+        "meta": {
+          "title": "撤销",
+          "icon":"icon-chexiao"
+        },
+        "divide": false,
+        "disabled": false,
+        "inputVisible": false
+      },
+      {
+        "name": "redo",
+        "shortcutKey": "",
+        "shortcutScope": "all",
+        "meta": {
+          "title": "重做",
+          "icon":"icon-zhongzuo"
+        },
+        "divide": true,
+        "disabled": false,
+        "inputVisible": false
+      },
+      {
+        "name": "colorPicker",
+        "shortcutKey": "",
+        "shortcutScope": "",
+        "meta": {
+          "title": "吸管工具",
+          "icon":"icon-shiseqi"
+        },
+        "divide": true,
+        "disabled": false,
+        "inputVisible": false
+      },
+      {
+        "name": "copy",
+        "shortcutKey": "",
+        "meta": {
+          "title": "复制",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": true
+      },
+      {
+        "name": "cut",
+        "shortcutKey": "",
+        "meta": {
+          "title": "剪切",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": true
+      },
+      {
+        "name": "paste",
+        "shortcutKey": "",
+        "meta": {
+          "title": "粘贴",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "name": "graphic",
+    "shortcutKey": "",
+    "meta": {
+      "title": "图像",
+      "icon":""
+    },
+    "divide": false,
+    "disabled": false,
+    "children": [
+      {
+        "name": "rotate",
+        "shortcutKey": "",
+        "meta": {
+          "title": "旋转图像",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false,
+        "children": [
+          {
+            "name": "rotateLeft",
+            "shortcutKey": "",
+            "meta": {
+              "title": "左转90度",
+              "icon":""
+            },
+            "divide": false,
+            "disabled": false
+          },
+          {
+            "name": "rotateRight",
+            "shortcutKey": "",
+            "meta": {
+              "title": "右转90度",
+              "icon":""
+            },
+            "divide": false,
+            "disabled": false
+          },
+          {
+            "name": "rotate180",
+            "shortcutKey": "",
+            "meta": {
+              "title": "旋转180度",
+              "icon":""
+            },
+            "divide": false,
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "name": "flip",
+        "shortcutKey": "",
+        "meta": {
+          "title": "翻转图像",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false,
+        "children": [
+          {
+            "name": "flipX",
+            "shortcutKey": "",
+            "meta": {
+              "title": "水平翻转",
+              "icon":"icon-shuipingfanzhuan"
+            },
+            "divide": false,
+            "disabled": false
+          },
+          {
+            "name": "flipY",
+            "shortcutKey": "",
+            "meta": {
+              "title": "垂直翻转",
+              "icon":"icon-chuizhifanzhuan"
+            },
+            "divide": false,
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "name": "straightening",
+        "shortcutKey": "",
+        "meta": {
+          "title": "纠斜",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false,
+        "children": [
+          {
+            "name": "autoStraightening",
+            "shortcutKey": "",
+            "shortcutScope": "all",
+            "meta": {
+              "title": "自动纠斜",
+              "icon":"icon-jiuxie1"
+            },
+            "divide": false,
+            "disabled": false
+          },
+          {
+            "name": "manualStraightening",
+            "shortcutKey": "",
+            "meta": {
+              "title": "手动纠斜",
+              "icon":"icon-jiuxie"
+            },
+            "divide": false,
+            "disabled": false,
+            "inputVisible": false
+          },
+          {
+            "name": "lineStraightening",
+            "shortcutKey": "",
+            "meta": {
+              "title": "拉线纠斜",
+              "icon":"icon-lazhicaiqie"
+            },
+            "divide": false,
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "name": "centering",
+        "shortcutKey": "",
+        "meta": {
+          "title": "居中",
+          "icon":"icon-juzhong"
+        },
+        "divide": true,
+        "disabled": false
+      },
+      {
+        "name": "sharp",
+        "shortcutKey": "",
+        "meta": {
+          "title": "锐化",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false
+      },
+      {
+        "name": "denoise",
+        "shortcutKey": "",
+        "meta": {
+          "title": "去噪点",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false
+      },
+      {
+        "name": "inRect",
+        "shortcutKey": "",
+        "meta": {
+          "title": "框内",
+          "icon":"icon-kuangneixuanqu"
+        },
+        "divide": false,
+        "disabled": false
+      },
+      {
+        "name": "outRect",
+        "shortcutKey": "",
+        "meta": {
+          "title": "框外",
+          "icon":"icon-kuangwaixuanqu"
+        },
+        "divide": true,
+        "disabled": false
+      },
+      {
+        "name": "threshold",
+        "shortcutKey": "",
+        "meta": {
+          "title": "二值化",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false
+      },
+      {
+        "name": "curves",
+        "shortcutKey": "",
+        "meta": {
+          "title": "曲线",
+          "icon":"icon-quxian"
+        },
+        "divide": false,
+        "disabled": false
+      },
+      {
+        "name": "BCHS",
+        "shortcutKey": "",
+        "meta": {
+          "title": "图像调整",
+          "icon":""
+        },
+        "divide": true,
+        "disabled": false
+      },
+      {
+        "name": "bleach",
+        "shortcutKey": "",
+        "shortcutScope": "all",
+        "meta": {
+          "title": "漂白",
+          "icon":"icon-jiandan1"
+        },
+        "divide": false,
+        "disabled": false
+      },
+      {
+        "name": "darken",
+        "shortcutKey": "",
+        "shortcutScope": "all",
+        "meta": {
+          "title": "加深",
+          "icon":"icon-jiashen"
+        },
+        "divide": false,
+        "disabled": false
+      },
+      {
+        "name": "grayscale",
+        "shortcutKey": "",
+        "shortcutScope": "all",
+        "meta": {
+          "title": "去色",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false
+      },
+      {
+        "name": "invert",
+        "shortcutKey": "",
+        "shortcutScope": "all",
+        "meta": {
+          "title": "反色",
+          "icon":""
+        },
+        "divide": true,
+        "disabled": false
+      },
+      {
+        "name": "crop",
+        "shortcutKey": "",
+        "meta": {
+          "title": "裁剪",
+          "icon":"icon-jianqie",
+          "checked": false
+        },
+        "divide": false,
+        "disabled": false,
+        "inputVisible": false
+      },
+      {
+        "name": "imageSize",
+        "shortcutKey": "",
+        "meta": {
+          "title": "图像大小",
+          "icon":"",
+          "checked": false
+        },
+        "divide": false,
+        "disabled": false,
+        "inputVisible": false
+      },
+      {
+        "name": "canvasSize",
+        "shortcutKey": "",
+        "meta": {
+          "title": "画布大小",
+          "icon":"",
+          "checked": false
+        },
+        "divide": false,
+        "disabled": false,
+        "inputVisible": false
+      },
+			{
+			  "name": "addBorder",
+			  "shortcutKey": "",
+			  "meta": {
+			    "title": "区域清除",
+			    "icon":"",
+			    "checked": false
+			  },
+			  "divide": true,
+			  "disabled": false,
+			  "inputVisible": false
+			},
+      {
+			  "name": "brush",
+			  "shortcutKey": "",
+			  "meta": {
+			    "title": "画笔",
+			    "icon":"icon-huabi",
+			    "checked": false
+			  },
+			  "divide": false,
+			  "disabled": false,
+			  "inputVisible": false
+			},
+      {
+			  "name": "cloneStamp",
+			  "shortcutKey": "",
+			  "meta": {
+			    "title": "仿制图章",
+			    "icon":"icon-tuzhang1",
+			    "checked": false
+			  },
+			  "divide": false,
+			  "disabled": false,
+			  "inputVisible": false
+			},
+      {
+			  "name": "blemishRepair",
+			  "shortcutKey": "",
+			  "meta": {
+			    "title": "污点修复",
+			    "icon":"icon-wudianxiufugongju",
+			    "checked": false
+			  },
+			  "divide": false,
+			  "disabled": false,
+			  "inputVisible": false
+			},
+      {
+			  "name": "historyBrush",
+			  "shortcutKey": "",
+			  "meta": {
+			    "title": "历史记录画笔",
+			    "icon":"icon-lishihuabi",
+			    "checked": false
+			  },
+			  "divide": false,
+			  "disabled": false,
+			  "inputVisible": false
+			}
+    ]
+  },
+  {
+    "name": "batch",
+    "shortcutKey": "",
+    "meta": {
+      "title": "批量",
+      "icon":""
+    },
+    "divide": false,
+    "disabled": false,
+    "children": [
+      {
+        "name": "batchRotate",
+        "shortcutKey": "",
+        "meta": {
+          "title": "旋转图像",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false,
+        "children": [
+          {
+            "name": "batchRotateLeft",
+            "shortcutKey": "",
+            "shortcutScope": "all",
+            "meta": {
+              "title": "左转90度",
+              "icon":""
+            },
+            "divide": false,
+            "disabled": false
+          },
+          {
+            "name": "batchRotateRight",
+            "shortcutKey": "",
+            "shortcutScope": "all",
+            "meta": {
+              "title": "右转90度",
+              "icon":""
+            },
+            "divide": false,
+            "disabled": false
+          },
+          {
+            "name": "batchRotate180",
+            "shortcutKey": "",
+            "shortcutScope": "all",
+            "meta": {
+              "title": "旋转180度",
+              "icon":""
+            },
+            "divide": false,
+            "disabled": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "view",
+    "shortcutKey": "",
+    "shortcutScope": "all",
+    "meta": {
+      "title": "视图",
+      "icon":""
+    },
+    "divide": false,
+    "disabled": false,
+    "children": [
+      {
+        "name": "workplace",
+        "shortcutKey": "",
+        "meta": {
+          "title": "工作区",
+          "icon":"icon-yemian",
+          "checked": true
+        },
+        "divide": false,
+        "disabled": false
+      },
+      {
+        "name": "browserMode",
+        "shortcutKey": "H",
+        "shortcutScope": "all",
+        "meta": {
+          "title": "浏览模式",
+          "icon":"icon-a-shoushouzhangbazhang",
+          "checked": false
+        },
+        "divide": false,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "option",
+    "shortcutKey": "",
+    "meta": {
+      "title": "选项",
+      "icon":""
+    },
+    "divide": false,
+    "disabled": false,
+    "children": [
+      {
+        "name": "shortcutConfig",
+        "shortcutKey": "",
+        "meta": {
+          "title": "快捷键配置",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false,
+        "inputVisible": false
+      },
+      {
+        "name": "preferences",
+        "shortcutKey": "",
+        "meta": {
+          "title": "首选项",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "help",
+    "shortcutKey": "",
+    "meta": {
+      "title": "帮助",
+      "icon":""
+    },
+    "divide": false,
+    "disabled": false,
+    "children": [
+      {
+        "name": "about",
+        "shortcutKey": "",
+        "meta": {
+          "title": "关于",
+          "icon":""
+        },
+        "divide": false,
+        "disabled": false
+      }
+    ]
+  }
+]
