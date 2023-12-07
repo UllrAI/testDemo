@@ -88,9 +88,9 @@
       "icon": "./build/icons/icon.icns",
       "artifactName": "${productName}-${os}-${version}-${arch}.${ext}",
       "target": {
-        "target":"default",
+        "target":"dmg",
         "arch":[
-          "x64","arm64"
+          "x64"
         ]
       }
     },
