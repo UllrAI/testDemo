@@ -22,16 +22,14 @@ jobs:
        # 步骤二的名称：将编译后的结果上传
       - name: Upload to oss
         id: upload_to_oss
-        uses: tiyee/aliyun-oss-auto-upload@v2.0.0
+        uses: tvrcgo/upload-to-oss@master
         with:
-          access-key-id: ${{ secrets.OSS_KEY_ID }}
-          access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
-          region: oss-us-west-1
-          bucket: ullrai
-          secure: true
-          local-folder: |
+          key-id: ${{ secrets.OSS_KEY_ID }}
+          key-secret: ${{ secrets.OSS_KEY_SECRET }}
+          region: oss-cn-shenzhen
+          bucket:  ullrai
+          assets: |
             out/*dmg
             out/latest.yml
             out/*blockmap
-          remote-dir: /
   
