@@ -22,10 +22,12 @@ jobs:
        # 步骤二的名称：将编译后的结果上传
       - name: Upload to oss
         id: upload_to_oss
-        uses: tvrcgo/upload-to-oss@master
+        uses: wxh06/dist2oss@v1
         with:
-          key-id: ${{ secrets.OSS_KEY_ID }}
-          key-secret: ${{ secrets.OSS_KEY_SECRET }}
+          version: "6.7.6"
+          stable: true
+          access-key-id: ${{ secrets.OSS_KEY_ID }}
+          access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
           region: oss-us-west-1
           bucket: ullrai
           assets: |
