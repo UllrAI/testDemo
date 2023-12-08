@@ -29,8 +29,8 @@ jobs:
           OSS_REGION: oss-cn-shenzhen
           OSS_BUCKET: ullrai
           OSS_PATH: /client/
-          UPLOAD_PATH: |
-            ./out/*dmg
-            ./out/latest.yml
-            ./out/*blockmap
+          UPLOAD_PATH: 
+            out/*dmg
+            out/latest.yml
+            out/*blockmap
   
