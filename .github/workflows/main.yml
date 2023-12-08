@@ -26,7 +26,7 @@ jobs:
         with:
           key-id: ${{ secrets.OSS_KEY_ID }}
           key-secret: ${{ secrets.OSS_KEY_SECRET }}
-          region: oss-cn-shenzhen
+          region: oss-us-west-1
           bucket: ullrai
           target-path: /client/
           asset-path: ./out
