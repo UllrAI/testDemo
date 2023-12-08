@@ -22,14 +22,15 @@ jobs:
        # 步骤二的名称：将编译后的结果上传
       - name: Upload to oss
         id: upload_to_oss
-        uses: tvrcgo/upload-to-oss@master
+        uses: AliyunWorkbench/workbench-oss@1.0.0
         with:
-          key-id: ${{ secrets.OSS_KEY_ID }}
-          key-secret: ${{ secrets.OSS_KEY_SECRET }}
-          region: oss-cn-shenzhen
-          bucket:  ullrai
-          assets: |
-            out/*dmg
-            out/latest.yml
-            out/*blockmap
+          ACCESS_KEY: ${{ secrets.OSS_KEY_ID }}
+          ACCESS_SECRET: ${{ secrets.OSS_KEY_SECRET }}
+          OSS_REGION: oss-cn-shenzhen
+          OSS_BUCKET: ullrai
+          OSS_PATH: /client/
+          UPLOAD_PATH: |
+            ./out/*dmg
+            ./out/latest.yml
+            ./out/*blockmap
   
