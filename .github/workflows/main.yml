@@ -29,8 +29,8 @@ jobs:
           region: oss-cn-shenzhen
           bucket: ullrai
           target-path: /client/
-          asset-path: |
-            out/*dmg
-            out/latest.yml
-            out/*blockmap
+          asset-path: ./out
+            #out/*dmg
+            #out/latest.yml
+            #out/*blockmap
   
